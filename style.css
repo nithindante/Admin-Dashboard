@@ -5,7 +5,7 @@
 .mainbody{
     display:grid;
     grid-template-columns: 1fr 3fr;
-height: 700px;
+height: 900px;
 }
 
 .sidebar{
@@ -15,7 +15,7 @@ height: 700px;
     display:grid;
     padding:15px;
     grid-template-rows: 100px;
-    padding-left: 100px;
+    padding-left: 50px;
     font-family: 'Nova Flat';
     color: #fff;
 }
@@ -32,11 +32,10 @@ row-gap: 30px;
     row-gap: 30px;
 }
 .header{
-    height: 150px;
+    height: auto;
     background-color:rgb(255, 255, 255);
     display: grid;
    box-shadow: 0 10px 2px -2px gray;
-    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
     grid-template-rows: 1fr 1fr;
     padding:20px;
 }
@@ -51,7 +50,7 @@ padding-left: 25px;
 margin-left: 20px;
 }
 .main{
-    height: 550px;
+    height: auto;
     background-color: rgba(216, 214, 214, 0.904);
     padding:20px;
     display: grid;
@@ -135,16 +134,14 @@ position: relative;
     column-gap: 30px;
     font-family:"proxima-nova-soft", sans-serif ;
 }
+
 .headabove>img{
 height: 40px;
 width: 40px;
 }
+
 i{
     font-size: 1.5rem;
-}
-
-.projects{
-
 }
 
 .thumb{
@@ -199,13 +196,60 @@ border:1px grey;
 background-color: white;
 margin-top: 5px;
 margin-bottom: 5px;
+height: 275px;
 }
 
+.side>div{
+    display: flex;
+    column-gap: 10px;
+}
+
+.side>div>div{
+    align-self: center;
+}
 .announce1>div>div{
     font-size: small ;
     color: grey;
 }
+.sidebar>h1>a{
+    align-self: center;
+}
 
+.sidebar>h1{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+}
 .announce{
     width:270px;
+}
+
+.side1>div{
+    display: flex;
+    column-gap: 10px;
+}
+
+.side1>div>div{
+    align-self: center;
+}
+.trends1{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    border:1px grey;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin-top: 5px;
+    padding-left: 25px;
+    height: 275px;
+    justify-content: center;
+}
+
+.Trends{
+    display: flex;
+    column-gap:20px;
+}
+
+.Trending{
+    margin-top:30px;
 }
